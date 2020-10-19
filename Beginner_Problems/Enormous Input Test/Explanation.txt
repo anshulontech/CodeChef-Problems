@@ -1,0 +1,16 @@
+Link To Problem:-
+https://www.codechef.com/problems/INTEST
+
+Time Complexity:-O(N).
+Space Complexity:-O(1). 
+
+For each number we will check that is the number is divisible is by k than we will increase the count variable by 1 and check for the next. At last 
+the count variable stores the count of numbers divisible by k so we will simply print that one.
+
+Note that this problem is for testing fast input-output.
+We can use scanf, printf in C langauge, which are quite fast in general :)
+
+Usually, you can use scanf/printf in C++.
+However, if you want to use cin/cout, it is usually slow.
+To make it faster. Use cin.tie(NULL) and set ios_base::sync_with_stdio(false)
+See the code for details.
