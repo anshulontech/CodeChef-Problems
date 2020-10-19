@@ -1,0 +1,11 @@
+Link To Problem:-
+https://www.codechef.com/problems/HS08TEST
+
+Approach 1:-
+
+Time Complexity:-O(1).
+Space Complexity:-O(1).
+
+In this we will check that if the amount to withdraw is found to be not a multiple of 5 or the withdrawl + 0.50 (charges) is found to be greater 
+than the net balance in the account than in that case we will just simply print the account balance else print the remaining balance after removing 
+the withdrawl amount with charges.
