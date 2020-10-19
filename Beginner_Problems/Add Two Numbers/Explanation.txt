@@ -1,0 +1,7 @@
+Link To Problem:-
+https://www.codechef.com/problems/FLOW001
+
+Time Complexity:-O(t).
+Space Complexity:-O(1). 
+
+For each test case we will store the input in two parameters a and b and than display the result c=a+b for each test in a new line as mentioned.
