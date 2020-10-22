@@ -1,0 +1,12 @@
+Link To Problem:-
+https://www.codechef.com/problems/SPLITIT
+
+Approach 1:-
+
+Time Complexity:-O(N).
+Space Complexity:-O(1). 
+
+Let us assume that B is a substring of a A than the last character of string B would also be a substring of A hence we can say that the new string B 
+will be the last character of string S and the string A is rest of the string. So if we can find that is last character occurs in the rest of the 
+string than we can say that we can split string into 2 halfs as given else we can't. We are just seeing the last character because if this character 
+is not in the string that any substring of S as B which will break from the last will not be a substring of A as last character of B is not in A. 
