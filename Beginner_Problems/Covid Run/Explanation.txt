@@ -1,0 +1,11 @@
+Link To Problem :-
+https://www.codechef.com/problems/CVDRUN
+
+Approach 1:-
+
+For each test case we are going to do the following operations:-
+
+We will run a loop untill we reach the city Y where we are present or any already covid infect city. If we reach the city Y than it represents that 
+we will also get affected hence we will print Yes else if we reach a city which is already infected with covid without reaching our city Y than it 
+represents that the city Y will not get infected in future and hence we can print No as result. Now to store the infected citites we are using a set 
+so that it will become easier to memorise them.
