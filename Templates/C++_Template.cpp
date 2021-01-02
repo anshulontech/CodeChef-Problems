@@ -1,15 +1,20 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
+#define endl "\n"
 using namespace std;
 
-int main() {
-    int t;
-    cin>>t;
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    long long t;
+    cin >> t;
 
-    while(t--) {
-        int n;
-        cin>>n;
-
-        helper();
+    while (t--)
+    {
+        long long n;
+        cin >> n;
+        
     }
 
     return 0;
